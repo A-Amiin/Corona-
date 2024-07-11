@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.spacing{
+  width: calc(100% - (50px + 50px));
+}
+
+.Headd {
+  padding-block: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: baseline;
+}
+
+.Headd .links .btn{
+  border: 1px #F44A45 solid;
+  background-color: white;
+  color: #F44A45;
+  width: 120px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 35px;
+}
+
+.links ul {
+  list-style-type: none;
+}
+
+.links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.links li a {
+  text-decoration: none;
+  border: none;
+  color: #415E56;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#one{
+  color:#F44A45;
+  text-shadow: 2px 2px 15px #F44A45 
+}
+
+.banner .text h3,
+.aboutus .text h3,
+.Third .text h3,
+.Fourth .text h3,
+.Fifith .text h3 {
+  color: rgba(251, 76, 71, 1);
+}
+
+.banner .text h1,
+.aboutus .text h1,
+.Third .text h1,
+.Fourth .text h1,
+.Fifith .text h1,
+.caard h2 {
+  color: rgba(3, 87, 85, 1);
+}
+
+.banner .text .btn,
+.aboutus .text .btn {
+  background-color: rgba(251, 76, 71, 1);
+  border-radius: 65px;
+  border: none;
+}
+
+.cards {
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.caard {
+  width: 32.33%;
+  height: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 35px 87px 0px rgba(0, 0, 0, 0.11);
+  justify-content: space-around;
+}
+
+.caard:nth-child(2) {
+  z-index: 1;
+}
+
+.caard img {
+  width: 50%;
+}
+
+.Fourth img {
+  max-width: 70%;
+  margin-bottom: 15%;
+}
+
+.Fourth .text p,
+.Fifith .text p {
+  padding: 15px 20%;
+}
+
+.Masks .contain {
+  display: flex;
+}
+
+.Masks .contain span {
+  margin-inline-end: 20px;
+  width: 85px;
+  height: 85px;
+  text-align: center;
+  display: block;
+  font-size: 44px;
+  font-weight: 700;
+  padding: 10px 10px;
+  color: rgba(250, 86, 82, 1);
+  background: rgb(254 230 229);
+  border-radius: 50%;
+}
+
+.Masks .contain .text {
+  width: calc(100% - (75px + 20px));
+}
+
+.subscribe form{
+  position: relative;
+}
+
+.subscribe .ask h1,
+.subscribe .ask h2{
+  color: #0C6C44;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.subscribe .ask input{
+  width: 700px;
+  margin: 25px 0;
+  height: 65px;
+  border-radius: 30px;
+  border: none;
+  padding: 0 30px;
+  box-shadow: 0px 9px 9px 6px #0000000F;
+}
+
+.subscribe .ask .btn{
+  position: absolute;
+  top: 34px;
+  right: 25px;
+  width: 120px;
+  height: 48px;
+  padding: 10px 10px;
+  border-radius: 25px;
+  background: #F44A45;
+  border: none;
+}
+
+.foooter{
+  margin: 50px 0 25px 0;
+}
+
+.foooter .all{
+  margin-bottom: 30px;
+}
+
+.foooter .all ul li{
+  margin-right: 20px;
+}
+
+.foooter .all ul li a{
+  text-decoration: none;
+  color: #00402E;
+  font-size: 20px;
+}
+
+.foooter .all ul li i {
+  font-size: 20px;
+}
+
+footer span{
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color:#415E56;;
+}
